@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Étudiant</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Mon Portfolio</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#about" class="hover:underline">À propos</a></li>
+          <li><a href="#projects" class="hover:underline">Projets</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section: À propos -->
+  <section id="about" class="container mx-auto px-6 py-16">
+    <div class="flex flex-col items-center text-center">
+      <!-- Photo -->
+      <img src="image/0hysyw.jpg.png" alt="Photo de profil" class="rounded-full w-40 h-40 mb-6">
+      <!-- Infos -->
+      <h2 class="text-3xl font-bold mb-4">Bonjour, je suis KOUDOM NGAKEUN LYDOUINE BELANGE</h2>
+      <p class="text-lg text-gray-700 max-w-2xl">
+        Étudiant en développement web passionné par la création de sites modernes, réactifs et interactifs. Je suis debutante HTML, CSS, JavaScript ,PHP et d'autres technologies front-end et back-end. Je suis enthousiaste à l'idée de relever de nouveaux défis !
+      </p>
+    </div>
+  </section>
+
+  <!-- Section: Projets -->
+  <section id="projects" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-8">Mes Projets</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Projet 1 -->
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="image/projet1.jpg.png" alt="Projet 1" class="rounded-t-md">
+          <h3 class="text-xl font-semibold mt-4">Projet 1</h3>
+          <p class="text-gray-600 mb-4">Description . Ce projet illustre mes compétences en HTML ET CSS.</p>
+          <a href="https://github.com/lydouinebelange/Ameliorationdudevoirs.git" target="_blank" class="text-blue-600 font-bold hover:underline">
+            Voir sur GitHub
+          </a>
+        </div>
+        <!-- Projet 2 -->
+        
+        <!-- Projet 3 -->
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <img src="image/projet2.jpg.png" alt="Projet 3" class="rounded-t-md">
+          <h3 class="text-xl font-semibold mt-4">Projet 2</h3>
+          <p class="text-gray-600 mb-4">Description : Ce projet montre mes compétences en Tailwind CSS.</p>
+          <a href="https://github.com/lydouinebelange/acceuil-tailwind.git" target="_blank" class="text-blue-600 font-bold hover:underline">
+            Voir sur GitHub
+          </a>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-4">
+            <img src="image/projet3.jpg.png" alt="Projet 3" class="rounded-t-md">
+            <h3 class="text-xl font-semibold mt-4">Projet 2</h3>
+            <p class="text-gray-600 mb-4">Description de mon projet 3. Ce mini projet met en avant mes compétences en back-end plus precisement en JavaScript.</p>
+            <a href="https://github.com/lydouinebelange/calculatrice.git" target="_blank" class="text-blue-600 font-bold hover:underline">
+              Voir sur GitHub
+            </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact" class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-8">Contactez-moi</h2>
+    <form class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-8">
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700 font-semibold">Nom</label>
+        <input type="text" id="name" class="w-full border border-gray-300 rounded-lg p-2 mt-1">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700 font-semibold">Email</label>
+        <input type="email" id="email" class="w-full border border-gray-300 rounded-lg p-2 mt-1">
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-700 font-semibold">Message</label>
+        <textarea id="message" class="w-full border border-gray-300 rounded-lg p-2 mt-1"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-blue-600 text-white rounded-lg p-2 hover:bg-blue-700">
+        Envoyer
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>© 2024 Mon Portfolio. Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+</html>
